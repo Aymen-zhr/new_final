@@ -1,6 +1,6 @@
-* 
-  margin: 0;
-  padding: 0;
+*
+    margin: 0
+    padding: 0
 
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap')
 
@@ -24,6 +24,7 @@
 .secondbar
     display: flex
     justify-content: space-between
+    align-items: center
     padding-inline: 10%
     background-color: #00000027
     div
@@ -46,3 +47,78 @@
                 select
                     border: none
                     color: #000000
+
+
+.caro-img-1
+    img
+    width: 100%
+    position: relative
+    background-image: url("../../public/img/hero-carousel/hero-carousel-1.jpg")
+    height: 100vh
+    &::before
+        content: ""
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        background-color: #0000004d
+.caro-img-2
+    img
+    width: 100%
+    position: relative
+    background-image: url("../../public/img/hero-carousel/hero-carousel-2.jpg")
+    height: 100vh
+    &::before
+        content: ""
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        background-color: #0000004d
+.caro-img-3
+    img
+    width: 100%
+    position: relative
+    background-image: url("../../public/img/hero-carousel/hero-carousel-3.jpg")
+    height: 100vh
+    &::before
+        content: ""
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        background-color: #0000004d
+.caro-content
+    position: absolute
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    padding-top: 40vh
+    padding-inline: 20%
+    gap: 2vw
+    h2
+        font-family: $font-family-del
+        font-size: 4vw
+        color: #ffffff
+    p
+        color: #ffffff
+        font-weight: 600
+    .Buttons
+        display: flex
+        gap: 1vw
+        button
+            background-color: transparent
+            border-radius: 2vw
+            border: 2px solid $limoni
+            height: 4vh
+            width: 9vw
+            color: #ffffff
+            &:hover
+                background-color: $limoni
+
+
+
