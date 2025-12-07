@@ -8,3 +8,8 @@ $custom-colors: ("limoni": $limoni)
 $theme-colors: map-merge($custom-colors, $theme-colors)
 
 $font-family-del: "Satisfy", cursive
+
+$spacer: 1vw
+
+@for $i from 6 through 50 
+    $spacers: map-merge($spacers, ($i : $spacer * $i) )
