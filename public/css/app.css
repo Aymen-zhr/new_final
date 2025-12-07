@@ -12317,4 +12317,63 @@ textarea.form-control-lg {
   display: flex;
 }
 
+.specialsSection {
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+}
+.specialsSection .specialsTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.specialsSection .specialsTitle .specialtitle {
+  background-color: rgb(255, 247, 235);
+  padding: 0.8vw;
+  font-size: 0.7vw;
+  font-weight: 700;
+  border-radius: 25px;
+}
+.specialsSection .specialsTitle .specialPara {
+  font-size: 1.7vw;
+  font-weight: 700;
+  font-family: "Satisfy", sans-serif;
+}
+
+.specials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5vw;
+  padding-inline: 6vw;
+}
+.specials .specialstext {
+  width: 25vw;
+}
+.specials .specialstext p {
+  font-weight: bolder;
+  font-size: 0.7vw;
+  cursor: pointer;
+  padding-block: 0.3vw;
+}
+.specials .specialstext p:hover {
+  color: #ffc451;
+}
+.specials .specialssectext {
+  padding-inline: 10vw;
+}
+.specials .specialssectext h2, .specials .specialssectext .h2 {
+  display: flex;
+  align-items: center;
+  font-family: "Satisfy", sans-serif;
+  font-weight: 700;
+  font-size: 1.7vw;
+  opacity: 0.8;
+  padding-bottom: 1vw;
+}
+.specials .specialsimg img {
+  width: 20vw;
+  height: 40vh;
+}
+
 /*# sourceMappingURL=app.css.map */
