@@ -12376,4 +12376,58 @@ textarea.form-control-lg {
   height: 40vh;
 }
 
+.events {
+  background-image: url("../img/events-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.events::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.events .eventstext {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  color: #fff;
+}
+.events .eventstext h5, .events .eventstext .h5 {
+  font-family: "Satisfy", sans-serif;
+  padding: 0;
+  font-size: 1.7vw;
+  display: flex;
+  justify-content: start;
+}
+.events .eventstext p {
+  margin: 0;
+  padding: 0;
+}
+.events .eventstext ul {
+  margin: 0;
+  padding: 0;
+}
+.events .eventstext ul li {
+  list-style-type: none;
+}
+.events .eventstext .eventspara {
+  display: flex;
+  text-align: start;
+}
+.events .price {
+  font-size: 1.7vw;
+  border-bottom: 1px solid #ffc451;
+  width: fit-content;
+}
+
+.button-circle button {
+  border-radius: 50%;
+  width: 1vw !important;
+  height: 1vw !important;
+  color: #e9961b !important;
+}
+
 /*# sourceMappingURL=app.css.map */
