@@ -48,13 +48,19 @@
                     border: none
                     color: #000000
 
+.carousel-sec
+    width: 100%
+    height: 100vh
 
 .caro-img-1
     img
     width: 100%
     position: relative
-    background-image: url("../../public/img/hero-carousel/hero-carousel-1.jpg")
+    background-image: url("../img/hero-carousel/hero-carousel-1.jpg")
     height: 100vh
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
     &::before
         content: ""
         position: absolute
@@ -66,23 +72,20 @@
 .caro-img-2
     img
     width: 100%
-    position: relative
-    background-image: url("../../public/img/hero-carousel/hero-carousel-2.jpg")
+    background-image: url("../img/hero-carousel/hero-carousel-2.jpg")
     height: 100vh
-    &::before
-        content: ""
-        position: absolute
-        top: 0
-        left: 0
-        width: 100%
-        height: 100%
-        background-color: #0000004d
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
 .caro-img-3
     img
     width: 100%
     position: relative
-    background-image: url("../../public/img/hero-carousel/hero-carousel-3.jpg")
+    background-image: url("../img/hero-carousel/hero-carousel-3.jpg")
     height: 100vh
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
     &::before
         content: ""
         position: absolute

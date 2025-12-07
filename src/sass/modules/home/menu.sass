@@ -1,0 +1,117 @@
+.menuSection
+    padding-top: 5vw
+    padding-bottom: 5vw
+    .menuTitle
+        display: flex
+        flex-direction: column
+        align-items: center
+        .menutitle
+            background-color: rgb(255, 247, 235)
+            padding: .8vw
+            font-size: .7vw
+            font-weight: 700
+            border-radius: 25px
+        .menuPara
+            font-size: 1.7vw
+            font-weight: 700
+            font-family: 'Satisfy', sans-serif
+
+.menuselect
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: center
+    gap: 2vw
+    font-family: 'Satisfy', sans-serif
+    font-size: .8vw
+    color: rgba(53, 51, 51, 0.685)
+    label
+        cursor: pointer
+        &:hover
+            color: $limoni
+
+
+.menucontainer
+    display: flex
+    flex-direction: row
+    padding-inline: 15vw
+    gap: 15vw
+    padding-top: 2vw
+
+.leftmenu
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    gap: 2vw
+    div
+        display: flex
+        flex-direction: row
+        align-items: center
+        justify-content: center
+        gap: 2vw
+        img
+            width: 5vw
+            border-radius: 50%
+            border: 6px solid #3b39392d
+    .menuitem
+        .menuitemtitle
+            display: flex
+            flex-direction: row
+            align-items: center
+            justify-content: center
+            gap: 2vw
+            span
+                border-bottom: 1px dotted #44424259
+                width: 6vw
+
+
+
+
+.rightmenu
+    display: flex
+    flex-direction: column
+    align-items: start
+    justify-content: start
+    gap: 2vw
+    div
+        display: flex
+        flex-direction: row
+        align-items: center
+        justify-content: start
+        gap: 2vw
+        img
+            width: 5vw
+            border-radius: 50%
+            border: 6px solid #3b39392d
+    .menuitem
+        .menuitemtitle
+            display: flex
+            flex-direction: row
+            align-items: center
+            justify-content: center
+            gap: 2vw
+            span
+                border-bottom: 1px dotted #44424259
+                width: 6vw
+
+#all:checked ~ .menucontainer .menuitem
+    display: flex
+
+#starters:checked ~ .menucontainer .menuitem
+    display: none
+
+#starters:checked ~ .menucontainer .menuitem.starters
+    display: flex
+    
+#salads:checked ~ .menucontainer .menuitem
+    display: none
+
+#salads:checked ~ .menucontainer .menuitem.salads
+    display: flex
+
+#speciality:checked ~ .menucontainer .menuitem
+    display: none
+
+#speciality:checked ~ .menucontainer .menuitem.speciality
+    display: flex

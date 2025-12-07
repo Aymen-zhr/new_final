@@ -12011,11 +12011,19 @@ textarea.form-control-lg {
   color: #000000;
 }
 
+.carousel-sec {
+  width: 100%;
+  height: 100vh;
+}
+
 .caro-img-1 {
   width: 100%;
   position: relative;
-  background-image: url("../../public/img/hero-carousel/hero-carousel-1.jpg");
+  background-image: url("../img/hero-carousel/hero-carousel-1.jpg");
   height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .caro-img-1::before {
   content: "";
@@ -12029,25 +12037,21 @@ textarea.form-control-lg {
 
 .caro-img-2 {
   width: 100%;
-  position: relative;
-  background-image: url("../../public/img/hero-carousel/hero-carousel-2.jpg");
+  background-image: url("../img/hero-carousel/hero-carousel-2.jpg");
   height: 100vh;
-}
-.caro-img-2::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.3019607843);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .caro-img-3 {
   width: 100%;
   position: relative;
-  background-image: url("../../public/img/hero-carousel/hero-carousel-3.jpg");
+  background-image: url("../img/hero-carousel/hero-carousel-3.jpg");
   height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .caro-img-3::before {
   content: "";
@@ -12174,6 +12178,143 @@ textarea.form-control-lg {
 .whysection .cubescontainer .cubes p {
   font-size: 0.9vw;
   opacity: 0.7;
+}
+
+.menuSection {
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+}
+.menuSection .menuTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menuSection .menuTitle .menutitle {
+  background-color: rgb(255, 247, 235);
+  padding: 0.8vw;
+  font-size: 0.7vw;
+  font-weight: 700;
+  border-radius: 25px;
+}
+.menuSection .menuTitle .menuPara {
+  font-size: 1.7vw;
+  font-weight: 700;
+  font-family: "Satisfy", sans-serif;
+}
+
+.menuselect {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+  font-family: "Satisfy", sans-serif;
+  font-size: 0.8vw;
+  color: rgba(53, 51, 51, 0.685);
+}
+.menuselect label {
+  cursor: pointer;
+}
+.menuselect label:hover {
+  color: #e9961b;
+}
+
+.menucontainer {
+  display: flex;
+  flex-direction: row;
+  padding-inline: 15vw;
+  gap: 15vw;
+  padding-top: 2vw;
+}
+
+.leftmenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+}
+.leftmenu div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+}
+.leftmenu div img {
+  width: 5vw;
+  border-radius: 50%;
+  border: 6px solid rgba(59, 57, 57, 0.1764705882);
+}
+.leftmenu .menuitem .menuitemtitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+}
+.leftmenu .menuitem .menuitemtitle span {
+  border-bottom: 1px dotted rgba(68, 66, 66, 0.3490196078);
+  width: 6vw;
+}
+
+.rightmenu {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 2vw;
+}
+.rightmenu div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  gap: 2vw;
+}
+.rightmenu div img {
+  width: 5vw;
+  border-radius: 50%;
+  border: 6px solid rgba(59, 57, 57, 0.1764705882);
+}
+.rightmenu .menuitem .menuitemtitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+}
+.rightmenu .menuitem .menuitemtitle span {
+  border-bottom: 1px dotted rgba(68, 66, 66, 0.3490196078);
+  width: 6vw;
+}
+
+#all:checked ~ .menucontainer .menuitem {
+  display: flex;
+}
+
+#starters:checked ~ .menucontainer .menuitem {
+  display: none;
+}
+
+#starters:checked ~ .menucontainer .menuitem.starters {
+  display: flex;
+}
+
+#salads:checked ~ .menucontainer .menuitem {
+  display: none;
+}
+
+#salads:checked ~ .menucontainer .menuitem.salads {
+  display: flex;
+}
+
+#speciality:checked ~ .menucontainer .menuitem {
+  display: none;
+}
+
+#speciality:checked ~ .menucontainer .menuitem.speciality {
+  display: flex;
 }
 
 /*# sourceMappingURL=app.css.map */
