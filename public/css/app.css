@@ -12094,4 +12094,86 @@ textarea.form-control-lg {
   background-color: #e9961b;
 }
 
+.aboutSection {
+  background-color: rgb(255, 250, 243);
+  display: flex;
+  flex-direction: row;
+  padding-top: 5vw;
+  gap: 2vw;
+  height: 60vh;
+  padding-inline: 15vw;
+}
+.aboutSection div ul {
+  padding: 0;
+  list-style: none;
+}
+.aboutSection div li i {
+  font-size: 1.2vw;
+}
+.aboutSection div img {
+  width: 30vw;
+  height: 40vh;
+}
+.aboutSection .aboutTitle div h2, .aboutSection .aboutTitle div .h2 {
+  font-size: 1.5vw;
+  font-weight: 700;
+  opacity: 0.8;
+  font-family: "Satisfy", sans-serif;
+}
+.aboutSection .aboutTitle div p {
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.whysection {
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+}
+.whysection .whyTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.whysection .whyTitle .whytitle {
+  background-color: rgb(255, 247, 235);
+  padding: 0.8vw;
+  font-size: 0.7vw;
+  font-weight: 700;
+  border-radius: 25px;
+}
+.whysection .whyTitle .whypara {
+  font-size: 1.7vw;
+  font-weight: 700;
+  font-family: "Satisfy", sans-serif;
+}
+.whysection .cubescontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+  padding-inline: 6vw;
+}
+.whysection .cubescontainer .cubes {
+  background-color: rgb(249, 249, 249);
+  padding: 4vw;
+}
+.whysection .cubescontainer .cubes .numb {
+  color: #ffc451;
+}
+.whysection .cubescontainer .cubes:hover {
+  color: white;
+  background-color: #fd7e14;
+}
+.whysection .cubescontainer .cubes .cubetitle {
+  font-size: 1.2vw;
+  font-family: "Satisfy", sans-serif;
+  font-weight: 700;
+  opacity: 0.8;
+}
+.whysection .cubescontainer .cubes p {
+  font-size: 0.9vw;
+  opacity: 0.7;
+}
+
 /*# sourceMappingURL=app.css.map */
