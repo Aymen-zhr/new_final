@@ -30443,4 +30443,132 @@ textarea.form-control-lg {
   margin: 0 0.5rem;
 }
 
+.map {
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+}
+.map .mapTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.map .mapTitle .maptitle {
+  background-color: rgb(255, 247, 235);
+  padding: 0.8vw;
+  font-size: 0.7vw;
+  font-weight: 700;
+  border-radius: 25px;
+}
+.map .mapTitle .mappara {
+  font-size: 1.7vw;
+  font-weight: 700;
+  font-family: "Satisfy", sans-serif;
+}
+
+.contact {
+  padding-top: 5vh;
+}
+
+.leftcontact {
+  width: 100%;
+  padding: 3vh;
+  box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.2);
+}
+.leftcontact .getintouch h3, .leftcontact .getintouch .h3 {
+  font-family: "Satisfy", cursive;
+  font-size: 3vh;
+  font-weight: bold;
+  opacity: 0.8;
+}
+.leftcontact .getintouch p {
+  opacity: 0.8;
+}
+.leftcontact .location .Location {
+  display: flex;
+  gap: 2vh;
+  border-bottom: 1px solid rgba(100, 100, 100, 0.2);
+  padding-bottom: 2vh;
+}
+.leftcontact .location .Location i {
+  font-size: 4vh;
+  color: #e9961b;
+}
+.leftcontact .location .Location h3, .leftcontact .location .Location .h3 {
+  font-family: "Satisfy", cursive;
+  font-size: 2vh;
+  font-weight: bold;
+  opacity: 0.8;
+}
+.leftcontact .location .Location p {
+  opacity: 0.8;
+}
+.leftcontact .location .Email {
+  display: flex;
+  gap: 2vh;
+  border-bottom: 1px solid rgba(100, 100, 100, 0.2);
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+}
+.leftcontact .location .Email i {
+  font-size: 4vh;
+  color: #e9961b;
+}
+.leftcontact .location .Email h3, .leftcontact .location .Email .h3 {
+  font-family: "Satisfy", cursive;
+  font-size: 2vh;
+  font-weight: bold;
+  opacity: 0.8;
+}
+.leftcontact .location .Email p {
+  opacity: 0.8;
+}
+.leftcontact .location .Phone {
+  display: flex;
+  gap: 2vh;
+  padding-top: 2vh;
+}
+.leftcontact .location .Phone i {
+  font-size: 4vh;
+  color: #e9961b;
+}
+.leftcontact .location .Phone h3, .leftcontact .location .Phone .h3 {
+  font-family: "Satisfy", cursive;
+  font-size: 2vh;
+  font-weight: bold;
+  opacity: 0.8;
+}
+.leftcontact .location .Phone p {
+  opacity: 0.8;
+}
+
+.your {
+  display: flex;
+  gap: 2vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.subject {
+  padding-bottom: 2vh;
+}
+
+.buttona {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  display: flex;
+  justify-content: center;
+}
+.buttona button {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-inline: 2vh;
+  background-color: #e9961b;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+.buttona button:hover {
+  background-color: #db9733;
+}
+
 /*# sourceMappingURL=app.css.map */
